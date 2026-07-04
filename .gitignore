@@ -1,0 +1,22 @@
+#build output 
+build/
+*.o
+*.out
+
+#logs
+logs/*
+
+#Reports
+reports/*
+
+#VS Code
+.vscode/
+
+#CLion
+.idea/
+
+#macOS
+.DS_Store
+
+#windows
+Thumbs.db
