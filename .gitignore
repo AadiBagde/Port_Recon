@@ -1,22 +1,76 @@
-#build output 
+# ==========================
+# Build Output
+# ==========================
 build/
 *.o
+*.obj
 *.out
+*.exe
+*.dll
+*.a
+*.lib
+*.exp
+*.pdb
 
-#logs
+# ==========================
+# Logs
+# ==========================
 logs/*
+!logs/.gitkeep
 
-#Reports
+# ==========================
+# Reports
+# ==========================
 reports/*
+!reports/.gitkeep
 
-#VS Code
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# ==========================
+# IDEs
+# ==========================
 .vscode/
-
-#CLion
 .idea/
 
-#macOS
+# ==========================
+# Operating System Files
+# ==========================
 .DS_Store
-
-#windows
 Thumbs.db
+Desktop.ini
+
+# ==========================
+# CMake (if you ever use it)
+# ==========================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# ==========================
+# Visual Studio
+# ==========================
+.vs/
+*.vcxproj.user
+
+# ==========================
+# Test Output
+# ==========================
+*.gcda
+*.gcno
+*.gcov
+coverage/
+
+# ==========================
+# Archives
+# ==========================
+*.zip
+*.tar
+*.gz
